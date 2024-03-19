@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+    height: 10vh;
+    align-items: center;
+    font-size: 1.2rem;
+    position:relative;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 200;
+}
+/* nav .name{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+.navend{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.login{
+    border: none;
+    background-color: transparent;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+
+}
+.name{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.info{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.405);
+    text-align: center;
+}
+.sort{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 10px;
+}
+.type{
+    all: unset;
+    border: 2px black solid;
+    padding: 5px 15px;
+    border-radius: 20px;   
+}
+.type:hover{
+    color: white;
+    background-color: black;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    padding: 10px;
+    margin: 1rem;
+}
+.article{
+    padding: 1rem 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+.img>img{
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+.details{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    padding: 0.5rem;
+
+}
+.details h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.details p{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.462);
+}
+.details .price{
+    font-size: 1rem;
+    font-weight: 600;
+}
